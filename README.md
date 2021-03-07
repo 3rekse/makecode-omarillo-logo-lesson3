@@ -56,6 +56,7 @@ Notice the *right* in the block. The direction can be changed to turn the **Turt
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 90)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
