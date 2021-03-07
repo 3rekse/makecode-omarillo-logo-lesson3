@@ -33,6 +33,7 @@ To turn the Turtle you will use the ⇢turn turtle right 90 °⇠ block and plac
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
 ```
 
@@ -43,6 +44,7 @@ At the moment it looks like nothing has happened. That is because the **Turtle**
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
@@ -64,11 +66,11 @@ turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 Now try moving the **Turtle** some different distances, different directions and now turning it as well.
 ```blocks
 turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
+turtle.moveTurtleDirection(TurtleDirection.Forward, 50)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 90)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 75)
+turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
 
 ## Step 6
