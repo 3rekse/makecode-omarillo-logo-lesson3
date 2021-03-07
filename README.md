@@ -6,7 +6,7 @@
 **Making the Turtle Turn.**
 
 In this lesson you will make your **Turtle** turn.
-![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson2/raw/main/assets/turn_screenshot.png)
+![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson3/raw/main/assets/turn_screenshot.png)
 
 ## Step 1
 ** Follow Along**
