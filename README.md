@@ -81,7 +81,11 @@ You can now make the **Turtle** turn right and left.
 ## Step 7
 **Your Turn**
 
-Get your **Turtle** to move, turn and then say, "I can change direction!"
+Get your **Turtle** to:
+- move
+- turn
+- move again
+- then say, "I can change direction!"
 
 ## Step 8
 **Done**
