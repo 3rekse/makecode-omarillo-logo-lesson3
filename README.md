@@ -29,7 +29,7 @@ turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
 ## Step 3
 ** Follow Along**
 
-To turn the Turtle you will use the ⇢turn turtle right 90 °⇠ block and place it inside the ⇢on start⇠ block after a move block.
+To turn the **Turtle** you will use the ⇢turn turtle right 90 °⇠ block and place it inside the ⇢on start⇠ block after a move block.
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
@@ -40,7 +40,7 @@ turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
 ## Step 4
 ** Follow Along**
 
-At the moment it looks like nothing has happened. That is because the **Turtle** has turned, but you need to move it to see that it has turned. Add another move turtle forward 25 steps⇠ block after the ⇢turn turtle right 90 °⇠ block.
+At the moment it looks like nothing has happened. That is because the **Turtle** has turned, but you need to move it to see that it has turned. Add another ⇢move turtle forward 25 steps⇠ block after the ⇢turn turtle right 90 °⇠ block.
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
