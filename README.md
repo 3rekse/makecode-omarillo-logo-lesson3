@@ -1,88 +1,88 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #3
+# Omarillo Logo - Lesson #3
 
-## Turtle Logo - Lesson #3 @unplugged
-**Making the Turtle Turn.**
+## Omarillo Logo - Lesson #3 @unplugged
+**Making the Omarillo Turn.**
 
-In this lesson you will make your **Turtle** turn.
+In questa lezione farai ruotare l'**Omarillo**.
 ![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson3/raw/main/assets/turn_screenshot.png)
 
 ## Step 1
 ** Follow Along**
 
-Once again, all our programs begin with an ⇢``on start``⇠ block. Then you need to add the **Turtle** using the ⇢``show turtle``⇠ block.
+Ancora una volta, tutti i nostri programmi iniziano con un blocco ⇢``on start``⇠ .Quindi devi aggiungere **Omarillo** usando  ⇢``show omarillo``⇠ block.
 ```blocks
-turtle.showTurtle()
+omarillo.showOmarillo()
 ```
 
 ## Step 2
 ** Follow Along**
 
-In the last lesson you learned to move the **Turtle** forwards or backwards.
+Nell'ultima lezione hai imparato a muovere l'**Omarillo** avanti o indietro.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 50)
 ```
 
 ## Step 3
 ** Follow Along**
 
-To turn the **Turtle** you will use the ⇢turn turtle right 90 °⇠ block and place it inside the ⇢on start⇠ block after a move block.
+Per ruotare l'**Omarillo** usiamo ⇢turn omarillo right 90 °⇠ block dentro ⇢on start⇠ block dopo il move block.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 50)
+omarillo.turnOmarilloDirectionByDegrees(OmarilloTurnDirection.Right, 90)
 ```
 
 ## Step 4
 ** Follow Along**
 
-At the moment it looks like nothing has happened. That is because the **Turtle** has turned, but you need to move it to see that it has turned. Add another ⇢move turtle forward 25 steps⇠ block after the ⇢turn turtle right 90 °⇠ block.
+Al momento sembra che non sia successo nulla. Questo perché l'**Omarillo** si è girato, ma devi spostarlo per vedere che si è girato. Aggiungi un altro blocco ⇢turn omarillo right 90 °⇠ block.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 50)
+omarillo.turnOmarilloDirectionByDegrees(OmarilloTurnDirection.Right, 90)
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
 ```
 
 ## Step 5
 ** Try it Out**
 
-Notice the *right* in the block. The direction can be changed to turn the **Turtle** right or left. Try turning the **Turtle** left.
+Notare il *right* nel blocco. La direzione può essere cambiata per girare l'**Omarillo** a destra o a sinistra. Prova a girare l'**Omarillo** a sinistra.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 90)
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 50)
+omarillo.turnOmarilloDirectionByDegrees(OmarilloTurnDirection.Left, 90)
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
 ```
 
 ## Step 5
 ** Try it Out**
 
-Now try moving the **Turtle** some different distances, different directions and now turning it as well.
+Ora prova a spostare **Omarillo** a distanze diverse, in direzioni diverse e ora anche a girarlo.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
-turtle.moveTurtleDirection(TurtleDirection.Forward, 50)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 90)
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 25)
+omarillo.turnOmarilloDirectionByDegrees(OmarilloTurnDirection.Right, 90)
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 50)
+omarillo.turnOmarilloDirectionByDegrees(OmarilloTurnDirection.Left, 90)
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
 ```
 
 ## Step 6
 **Success!**
 
-You can now make the **Turtle** turn right and left.
+You can now make the **Omarillo** turn right and left.
 
 ## Step 7
 **Your Turn**
 
-Get your **Turtle** to:
+Get your **Omarillo** to:
 - move
 - turn
 - move again
@@ -91,8 +91,8 @@ Get your **Turtle** to:
 ## Step 8
 **Done**
 
-You have successfully completed your third lesson in Turtle Logo.
+You have successfully completed your third lesson in Omarillo Logo.
 
 ```ghost
-turtle.say("Hello, World!")
+omarillo.say("Hello, World!")
 ```
